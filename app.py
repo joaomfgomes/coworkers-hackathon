@@ -343,7 +343,6 @@ HOME_HTML = """<!DOCTYPE html>
 
     <div class="actions">
       <button class="btn-primary" onclick="runPipeline(false)">Run Pipeline</button>
-      <button class="btn-secondary" onclick="runPipeline(true)">Use Demo RFP</button>
     </div>
   </div>
 
