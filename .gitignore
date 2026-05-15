@@ -1,0 +1,21 @@
+# Environment & secrets
+.env
+
+# Claude Code local settings (machine-specific)
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated outputs
+outputs/
+
+# Office lock files
+~$*
+
+# Virtual environments
+.venv/
+venv/
+env/

@@ -1,0 +1,74 @@
+[
+  {
+    "feature_group": "Create simple customer services and processes",
+    "keywords": ["form", "process", "customer service", "interface", "design", "template", "workflow", "calculation", "field", "decision tree", "if-then"],
+    "solution": "SAP BTP (SAPUI5, SAP CAP, HANA, Workflow)",
+    "services": ["Form Engine", "Rules Engine", "Dynamic UI Builder", "Workflow Engine", "Template Library"],
+    "platform": "SAP Business Technology Platform",
+    "comment": null,
+    "description": "SAP BTP low-code tools (SAPUI5, SAP CAP) enable HR teams to build forms, workflows, and decision trees without programming knowledge. Templates and a WYSIWYG editor ensure consistent UX."
+  },
+  {
+    "feature_group": "Integration of HR applications",
+    "keywords": ["integration", "API", "interface", "middleware", "data exchange", "connectivity", "event", "replicate", "migration", "ETL"],
+    "solution": "SAP Integration Suite",
+    "services": ["API Management", "Cloud Integration (CPI)", "Event Mesh", "Data Migration (SLT)"],
+    "platform": "SAP Business Technology Platform",
+    "comment": "RICEFW to be considered",
+    "description": "SAP Integration Suite provides API management, event-based integration, and data replication capabilities to connect all HR systems in a centralised, standardised way."
+  },
+  {
+    "feature_group": "Automation of acceptance of unstructured (e.g. Phone, Mail, Chat) Customer interactions",
+    "keywords": ["automation", "chatbot", "unstructured", "phone", "mail", "chat", "RPA", "digital assistant", "interpretation", "NLP", "conversational"],
+    "solution": "Digital Assistance / RPA",
+    "services": ["Conversational AI Chatbot", "RPA Bot (SAP Build Process Automation)", "NLP Engine", "Phone Interface Adapter"],
+    "platform": "SAP Business Technology Platform",
+    "comment": "RICEFW to be considered",
+    "description": "A conversational AI chatbot handles unstructured HR queries via chat and email. RPA bots automate repetitive tasks. Phone input is consumed via the existing telephony interface."
+  },
+  {
+    "feature_group": "Ensure the consistency of HR data across systems and applications",
+    "keywords": ["data consistency", "data model", "master data", "uniform", "SaaS", "SAP SuccessFactors", "data quality"],
+    "solution": "SAP SuccessFactors + Data Model Catalog",
+    "services": ["Master Data Management", "HANA Data Model", "API-based Data Sync"],
+    "platform": "SAP Business Technology Platform",
+    "comment": null,
+    "description": "A unified HR data model in SAP HANA ensures consistent data across all HR applications. SAP SuccessFactors serves as the system of record for employee master data."
+  },
+  {
+    "feature_group": "Build trust in digital HR systems",
+    "keywords": ["trust", "identity", "authentication", "security", "access", "SSO", "identity provider", "PaaS"],
+    "solution": "SAP BTP — PaaS (Identity & Access Management)",
+    "services": ["Identity Provider (IdP) Configuration", "SAP BTP Authorization & Trust Management"],
+    "platform": "SAP Business Technology Platform",
+    "comment": null,
+    "description": "SAP BTP's Trust Management service enables SSO, multi-factor authentication, and role-based access control, ensuring employees trust and securely access digital HR systems."
+  },
+  {
+    "feature_group": "Define the target group for the access authorization to the in-house developed HR application",
+    "keywords": ["access rights", "authorization", "target group", "roles", "permissions", "user management"],
+    "solution": "SAP BTP Authorization & Trust Management (User Roles)",
+    "services": ["Role Management", "SAPUI5 Admin UI", "Identity Provider Integration"],
+    "platform": "SAP Business Technology Platform",
+    "comment": null,
+    "description": "Role-based access control managed via SAP BTP allows HR admins to define target groups and assign fine-grained permissions to in-house developed HR applications."
+  },
+  {
+    "feature_group": "Development of complex HR applications and customer services",
+    "keywords": ["complex", "extension", "side-by-side", "custom development", "SAP AppGyver", "CAP", "BTP extension"],
+    "solution": "SAP BTP Side-by-Side Extension",
+    "services": ["SAP CAP (Cloud Application Programming Model)", "SAP AppGyver / Build Apps", "SAP HANA Cloud DB"],
+    "platform": "SAP Business Technology Platform",
+    "comment": "SAP AppGyver training required",
+    "description": "Complex HR applications are built as side-by-side extensions on SAP BTP using SAP CAP for backend services and HANA Cloud as the persistence layer, without touching the core HR system."
+  },
+  {
+    "feature_group": "Monitoring of resources and applications",
+    "keywords": ["monitoring", "observability", "alerting", "performance", "health", "DynaTrace", "dashboard", "SLA"],
+    "solution": "DynaTrace + SAP Alert Notification & Automation Pilot",
+    "services": ["DynaTrace APM", "SAP Alert Notification Service", "SAP Automation Pilot"],
+    "platform": "SAP Business Technology Platform",
+    "comment": "Custom monitoring requires additional effort",
+    "description": "DynaTrace provides full-stack observability and anomaly detection. SAP Alert Notification and Automation Pilot handle automated remediation workflows for common operational issues."
+  }
+]
