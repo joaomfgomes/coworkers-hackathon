@@ -2,7 +2,7 @@
 
 A multi-agent pipeline that reads an RFP document and automatically produces a ready-to-present PowerPoint proposal deck and a requirements analysis spreadsheet.
 
-Built for Hackathon UC1 — HR Digital Transformation (SAP BTP / Accenture).
+Built for Hackathon UC1 — HR Digital Transformation.
 
 ## How it works
 
@@ -102,7 +102,3 @@ rfp_automation/
     ├── sample_rfp.docx          # Synthetic demo RFP
     └── generate_sample_rfp.py   # Script to regenerate the demo RFP
 ```
-
-## Knowledge base
-
-`knowledge_base/solutions.json` maps feature groups to SAP BTP services using keyword matching. Each entry covers: solution name, platform, services list, and RICEFW considerations. Extend this file to support additional platforms or solution areas.
