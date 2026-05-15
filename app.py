@@ -506,5 +506,6 @@ function setBadge(text, cls) {
 
 if __name__ == "__main__":
     os.makedirs(UPLOAD_DIR, exist_ok=True)
-    print(f"Starting RFP Automation UI on http://localhost:3112")
-    app.run(host="0.0.0.0", port=3112, threaded=True, debug=False)
+    port = int(os.environ.get("PORT", 3112))
+    print(f"Starting RFP Automation UI on http://localhost:{port}")
+    app.run(host="0.0.0.0", port=port, threaded=True, debug=False)
