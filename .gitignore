@@ -12,6 +12,9 @@ __pycache__/
 # Generated outputs
 outputs/
 
+# Uploaded files
+uploads/
+
 # Office lock files
 ~$*
 
